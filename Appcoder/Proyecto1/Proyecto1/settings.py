@@ -55,7 +55,7 @@ ROOT_URLCONF = 'Proyecto1.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS':  ["Proyecto1/Proyecto1/Plantilla/template.html"],
+        'DIRS':  ["C:/Users/damie/OneDrive/Escritorio/Appcoder/Proyecto1/templates"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

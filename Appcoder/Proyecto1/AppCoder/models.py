@@ -1,8 +1,10 @@
 from django.db import models
 
 # Create your models here.
-class Clase_Familia(models.Model):
-    nombre=models.CharField(max_length=40)
+class Familiar(models.Model):
+    nombre= models.CharField(max_length=40)
     edad = models.IntegerField()
     fecha_nacimiento = models.DateField()
-    
+
+
+
